@@ -1,0 +1,58 @@
+.input-prompt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-prompt {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.input-prompt h2 {
+  margin-bottom: 20px;
+}
+
+.input-prompt input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  appearance: textfield; /* Standard */
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.input-prompt input::-webkit-outer-spin-button,
+.input-prompt input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Chrome, Safari, Edge, Opera */
+}
+
+.input-prompt-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-prompt-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-prompt-buttons button:hover {
+  background: #555;
+}

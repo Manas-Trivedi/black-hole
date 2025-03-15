@@ -1,0 +1,43 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.starting-player {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.reset-button:hover {
+  background: #555;
+}
+
+.game-over {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
